@@ -5,14 +5,9 @@ project.
 
 # Usage
 
-After you install homebrew-cask, run the following command:
+To install alternate versions of Casks, run the following commands:
 
 ```sh
-$ brew tap fmasuhr/unofficial
-```
-
-You can now install alternate versions of Casks.
-
-```sh
-$ brew cask install vagrant-1.8
+brew tap fmasuhr/unofficial
+brew cask install vagrant-1.8
 ```
