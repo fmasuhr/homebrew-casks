@@ -1,13 +1,21 @@
-# homebrew-unofficial
+# Homebrew Unofficial
 
-Here you'll find alternate versions of Casks for the [homebrew-cask](https://github.com/caskroom/homebrew-cask)
-project.
+Casks with alternate versions for [homebrew-cask](https://github.com/caskroom/homebrew-cask)
 
-# Usage
+## Installation
 
-To install alternate versions of Casks, run the following commands:
+Make the [casks](#casks) included in this repository available in homebrew
 
 ```sh
 brew tap fmasuhr/unofficial
+```
+
+Install wanted cask e.g.
+
+```sh
 brew cask install vagrant-1.8
 ```
+
+## Casks
+
+* vagrant-1.8
